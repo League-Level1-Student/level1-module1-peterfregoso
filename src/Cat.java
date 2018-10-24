@@ -16,7 +16,15 @@
 
 
 public class Cat {
+public static void main(String[] args) {
+	Cat op = new Cat("jack");
+	op.meow();
+	op.printName();
+	for (int i = 0; i < 9; i++) {
+		op.kill();
+	}
 
+}
 	private String name;
 	private int lives = 9;
 
