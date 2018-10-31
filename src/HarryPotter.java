@@ -12,8 +12,14 @@
 
 
 public class HarryPotter {
-
-	private boolean cloakOn;
+public static void main(String[] args) {
+	HarryPotter op = new HarryPotter();
+	op.makeInvisible(true);
+	op.spyOnSnape();
+	op.makeInvisible(false);
+	op.castSpell("stupefy");
+}
+	private  boolean cloakOn;
 	
 	HarryPotter() {
 		System.out.println("making Harry Potter...");
