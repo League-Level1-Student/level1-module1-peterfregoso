@@ -8,12 +8,14 @@ private int code1;
 
  Vault(){
 
-	
-	Random ran = new Random();
-	 code1= ran.nextInt(1000000);
+		Random ran = new Random();
+	//	  code1= ran.nextInt(1000000);
+	code1 = 1000001;
+
 	
 }
-public boolean tryCode(int triedcode) {
+
+public boolean triedCode(int triedcode) {
 	
 	
 	if(code1== triedcode) {

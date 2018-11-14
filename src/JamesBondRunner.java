@@ -5,14 +5,9 @@ public class JamesBondRunner {
 		
 	
 Vault op = new Vault();
-String d = JOptionPane.showInputDialog("whats the code");
-int a = Integer.parseInt(d);
-if(op.tryCode(a)) {
-	System.out.println("you opened the vault");
-}
-else{
-	System.out.println("Wrong");
-}
+JamesBond ok= new JamesBond();
+int r =ok.findCode(op);
 
+JOptionPane.showMessageDialog(null, "JAmes bond says the code is" + r);
 }
 }
