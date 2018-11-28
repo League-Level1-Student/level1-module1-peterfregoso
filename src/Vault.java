@@ -9,8 +9,8 @@ private int code1;
  Vault(){
 
 		Random ran = new Random();
-	//	  code1= ran.nextInt(1000000);
-	code1 = 1000001;
+	  code1= ran.nextInt(1000000);
+
 
 	
 }
