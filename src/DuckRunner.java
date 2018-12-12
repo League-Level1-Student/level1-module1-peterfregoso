@@ -10,5 +10,6 @@ John.payrespects();
 John.kill();
 John.kill();
 John.payrespects();
+System.out.println(John);
 }
 }
